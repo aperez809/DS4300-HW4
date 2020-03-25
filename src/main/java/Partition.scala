@@ -1,6 +1,6 @@
-object Partition {
-    def main() {
-        println(moved(100000, 10, 11));
+object Partition extends App {
+    def main(): Unit = {
+        println(moved(100000, 100, 107));
     }
 
     def moved(records: Int, startN: Int, endN: Int): Double = {
